@@ -16,8 +16,8 @@ namespace ArtCommsOrderer
             switch (Console.ReadLine())
             {
                 case "1":
-                    Order newOrder = new Order();
-                    newOrder.CreateNewOrder();
+                    Client newClient = new Client();
+                    newClient.ClientLogIn();
                     return true;
                 case "2":
                     Artist newArtist = new Artist();
